@@ -60,8 +60,8 @@ column_mapping = {
 ctu13_df.rename(columns=column_mapping, inplace=True)
 
 # Change the label of the benign traffic '0' to 'BENIGN'
-# Change the label of the attack traffic '1' to 'Bot'
-ctu13_df[' Label'] = ctu13_df[' Label'].replace({0: 'BENIGN', 1: 'Bot'})
+# Change the label of the attack traffic '1' to 'Botnet'
+ctu13_df[' Label'] = ctu13_df[' Label'].replace({0: 'BENIGN', 1: 'Botnet'})
 
 # Define the desired order of columns
 cicids2017_columns_order = [

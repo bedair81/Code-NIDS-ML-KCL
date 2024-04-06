@@ -72,8 +72,8 @@ column_mapping_ctu13 = {
 ctu13_df.rename(columns=column_mapping_ctu13, inplace=True)
 
 # Change the label of the benign traffic '0' to 'BENIGN'
-# Change the label of the attack traffic '1' to 'Bot'
-ctu13_df[' Label'] = ctu13_df[' Label'].replace({0: 'BENIGN', 1: 'Bot'})
+# Change the label of the attack traffic '1' to 'Botnet'
+ctu13_df[' Label'] = ctu13_df[' Label'].replace({0: 'BENIGN', 1: 'Botnet'})
 
 # Get the list of columns in CTU13 DataFrame
 ctu13_columns = ctu13_df.columns.tolist()
