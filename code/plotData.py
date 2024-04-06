@@ -1,18 +1,18 @@
 # Random Forest
-rf_acc_ctu13_bin = 0.997235
-rf_f1_ctu13_bin = 0.996723
-rf_acc_cicids_bin = 0.989733
-rf_f1_cicids_bin = 0.974258
-rf_acc_cicids_multi = 0.989428
-rf_f1_cicids_multi = 0.816561
+rf_acc_ctu13_bin = 
+rf_f1_ctu13_bin = 
+rf_acc_cicids_bin = 
+rf_f1_cicids_bin = 
+rf_acc_cicids_multi = 
+rf_f1_cicids_multi = 
 
 # SVM
-svm_acc_ctu13_bin = 0.873228
-svm_f1_ctu13_bin = 0.846285
-svm_acc_cicids_bin = 0.774821
-svm_f1_cicids_bin = 0.231026
-svm_acc_cicids_multi = 0.804313
-svm_f1_cicids_multi = 0.135484
+svm_acc_ctu13_bin = 
+svm_f1_ctu13_bin = 
+svm_acc_cicids_bin = 
+svm_f1_cicids_bin = 
+svm_acc_cicids_multi = 
+svm_f1_cicids_multi = 
 
 import matplotlib.pyplot as plt
 import numpy as np

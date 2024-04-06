@@ -274,7 +274,7 @@ CTU13/
 CTU13ML/
 
 # Pickle Files
-*.pkl
+Pickle Files/
 
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,windows,macos,linux
