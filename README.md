@@ -1,4 +1,4 @@
-# Year 3 Project: ML-based Network Attack Detection and Explanation
+# Year 3 Project: Transferability and Explainability of Machine Learning Models for Network Intrusion Detection
 
 Repository for the Year 3 project focused on machine learning-based detection and explanation of network attacks, specifically targeting botnet variants.
 
