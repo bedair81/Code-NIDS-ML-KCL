@@ -36,7 +36,7 @@ Ensure your environment is set up with the required dependencies:
 
 - **IDE**: Supports Python and Jupyter notebooks.
 - **Python**: Version 3.12.x.
-- **Packages**: pandas (2.2.1), numpy (1.26.4), scikit-learn (1.4.1.post1), shap (0.45.0), matplotlib (3.8.3), ipywidgets (8.1.2).
+- **Packages**: pandas (2.2.1), numpy (1.26.4), scikit-learn (1.4.1.post1), shap (0.45.0), matplotlib (3.8.3), ipywidgets (8.1.2), setuptools (69.2.0).
 
 ## Running the Project
 
