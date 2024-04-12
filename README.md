@@ -1,6 +1,6 @@
 # Year 3 Project: Transferability and Explainability of Machine Learning Models for Network Intrusion Detection
 
-This repository is dedicated to the Year 3 project on the use of machine learning for detecting and explaining network intrusions, with a focus on botnet variations.
+This repository is dedicated to the Year 3 project on using machine learning to detect and explain network intrusions, with a focus on botnet variations.
 
 ## Quick Start Guide
 
@@ -44,7 +44,7 @@ Ensure the setup includes all necessary dependencies:
 - **Python Version**: 3.10.14 (or any 3.10.x).
 - **Required Packages**:
   - pandas (2.2.1)
-  - numpy (1.26.4)
+  - NumPy (1.26.4)
   - cuml (24.02)
   - shap (0.45.0)
   - matplotlib (3.8.3)
@@ -54,12 +54,12 @@ Ensure the setup includes all necessary dependencies:
 
 1. Organize the directory structure and install the required packages as specified in the Environment Setup section.
 2. Download and prepare the datasets as described.
-3. Run the scripts and notebooks in the specified order to preprocess data, train models, assess their effectiveness, and visualize both data and findings.
+3. Run the scripts and notebooks to preprocess data, train models, assess their effectiveness, and visualize data and findings.
 
 ## Additional Notes
 
-- The CTU-13 dataset is already formatted correctly. For CICIDS2017, ensure to download and utilize the CSV files from the `ML` directory.
-- Switch to CUML's GPU-accelerated models to reduce the computation time required for CPU-based models. Verify that your Nvidia GPU and RAPIDS AI environment are appropriately configured.
+- The CTU-13 dataset is already formatted correctly. For CICIDS2017, ensure that you download and utilize the CSV files from the `ML` directory.
+- Switch to CUML's GPU-accelerated models to reduce the computation time required for CPU-based models. Verify that your Nvidia GPU and RAPIDS AI environment have been appropriately configured.
 
 ## Further Information
 
