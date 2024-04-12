@@ -65,3 +65,7 @@ Ensure your environment is set up with the required dependencies:
 
 - The CTU-13 CSV files are provided in the correct format. For CICIDS2017, download the dataset and use the CSV files in the `ML` directory.
 - Due to the extensive training times required for the CPU-based models, we switched to CUML's GPU-accelerated models. Ensure that you have a compatible Nvidia GPU and the necessary RAPIDS AI environment set up to run these models.
+
+## Related Resources
+
+- **Thesis Documentation**: For a detailed exposition of the theoretical foundations, research methodology, and analysis of results for this project, please see the dissertation at [Thesis-NIDS-ML-KCL](https://github.com/bedair81/Thesis-NIDS-ML-KCL).
